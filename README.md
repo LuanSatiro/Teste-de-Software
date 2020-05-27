@@ -1,2 +1,2 @@
-# Teste-de-Software
-Resoluções de exercícios propostos 
+Nome: Luan Matheus Satiro de Oliveira  
+RA: 1460481721047
