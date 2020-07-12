@@ -26,7 +26,7 @@ public class App{
         Scanner myObj = new Scanner(System.in);  
         System.out.println("Entre com o valor nominal:");
 
-        double valorNominal = myObj.nextFloat();  
+        float valorNominal = myObj.nextFloat();  
 
         System.out.println("O valor nominal " + valorNominal); 
         

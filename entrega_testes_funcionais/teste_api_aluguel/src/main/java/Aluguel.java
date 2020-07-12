@@ -10,13 +10,13 @@ import okhttp3.Response;
 
 public class Aluguel{
     private int dia;
-    private double nominal;
+    private float nominal;
 
-    public Aluguel(int dia, double nominal){
+    public Aluguel(int dia, float nominal){
         this.dia = dia;
         this.nominal = nominal;
     }
-    public String convert(int diaCalculado, double valorNominal){
+    public String convert(int diaCalculado, float valorNominal){
         Aluguel aluguel = new Aluguel( diaCalculado , valorNominal);
         JSONObject my_Obj = new JSONObject();
         my_Obj.put("valor_nominal", valorNominal);
