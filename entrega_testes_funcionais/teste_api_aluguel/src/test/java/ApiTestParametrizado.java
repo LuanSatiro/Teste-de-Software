@@ -18,7 +18,7 @@ public class ApiTestParametrizado{
     @CsvSource({"1,0.90", "2,0.90", "4,0.90", 
     "5,0.90", "6,0.95", "7,0.95", "9,0.95", "10,0.95", "11,1"
     , "12,1", "14,1", "15,1", "16, 1.021" ,"17,1.022","29,1.034","30,1.035","-1,0","31,0"})
-    /// metodo para desconto no valor nominal
+    /// metodo 
     public void testeBase(int diaCalculado, float porc)throws IOException{
         /// valor nominal fixo
         float valorNominal = 1400.00f;
